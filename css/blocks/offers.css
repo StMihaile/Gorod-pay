@@ -1,0 +1,13 @@
+.offers {
+    margin: 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.offers__text {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0;
+    padding: 0;
+}
