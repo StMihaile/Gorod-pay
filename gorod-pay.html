@@ -73,7 +73,8 @@
         <div class="header__right">
           <a class="header__signin" href="#">Личный кабинет</a>
           <a class="btn header__download" href="#">
-            <svg class="header__download-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="header__download-icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M3.082 3.41C3 3.57 3 3.78 3 4.2V8.028C3 8.448 3 8.658 3.082 8.818C3.15393 8.95925 3.26875 9.07407 3.41 9.146C3.57 9.228 3.78 9.228 4.2 9.228H8.028C8.448 9.228 8.658 9.228 8.818 9.146C8.95925 9.07407 9.07407 8.95925 9.146 8.818C9.228 8.658 9.228 8.448 9.228 8.028V4.2C9.228 3.78 9.228 3.57 9.146 3.41C9.07407 3.26875 8.95925 3.15393 8.818 3.082C8.658 3 8.448 3 8.028 3H4.2C3.78 3 3.57 3 3.41 3.082C3.26875 3.15393 3.15393 3.26875 3.082 3.41ZM4.5 4.5H7.728V7.728H4.5V4.5Z"
                 fill="white" />
@@ -105,16 +106,33 @@
   </header>
   <main>
     <!-- Hero блок -->
-<div class="banner">
- <div class="banner__content"> <p class="banner__content">GorodPay – удобное приложение для пассажиров</p>
-  <span class="banner__text">С нами быстрее, комфортнее и выгоднее</span>
-  <button class="banner__button" >Скачать приложение</button>
-  <a class="banner__link" href="#"> </a>
-</div>
-  <img class="banner__img" src="/img/banner-img.png" alt="Изображение логотипа приложения">
-
-
-</div>
+    <div class="banner">
+      <div class="banner__content">
+        <p class="banner__content">GorodPay – удобное приложение для пассажиров</p>
+        <span class="banner__text">С нами быстрее, комфортнее и выгоднее</span>
+        <div class="banner__buttons">
+          <button class="banner__button btn">Скачать приложение</button>
+          <a class="banner__link" href="#" aria-label="QR - код"><svg width="24" height="24" viewBox="0 0 24 24"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.69841 4.09198C3.60001 4.28398 3.60001 4.53598 3.60001 5.03998V9.63357C3.60001 10.1376 3.60001 10.3896 3.69841 10.5816C3.78472 10.7511 3.92251 10.8889 4.09201 10.9752C4.28401 11.0736 4.53601 11.0736 5.04001 11.0736H9.63361C10.1376 11.0736 10.3896 11.0736 10.5816 10.9752C10.7511 10.8889 10.8889 10.7511 10.9752 10.5816C11.0736 10.3896 11.0736 10.1376 11.0736 9.63357V5.03998C11.0736 4.53598 11.0736 4.28398 10.9752 4.09198C10.8889 3.92248 10.7511 3.78469 10.5816 3.69838C10.3896 3.59998 10.1376 3.59998 9.63361 3.59998H5.04001C4.53601 3.59998 4.28401 3.59998 4.09201 3.69838C3.92251 3.78469 3.78472 3.92248 3.69841 4.09198ZM5.40001 5.39998H9.27361V9.27358H5.40001V5.39998Z"
+                fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M3.69841 13.4184C3.60001 13.6104 3.60001 13.8624 3.60001 14.3664V18.96C3.60001 19.464 3.60001 19.716 3.69841 19.908C3.78472 20.0775 3.92251 20.2153 4.09201 20.3016C4.28401 20.4 4.53601 20.4 5.04001 20.4H9.63361C10.1376 20.4 10.3896 20.4 10.5816 20.3016C10.7511 20.2153 10.8889 20.0775 10.9752 19.908C11.0736 19.716 11.0736 19.464 11.0736 18.96V14.3664C11.0736 13.8624 11.0736 13.6104 10.9752 13.4184C10.8889 13.2489 10.7511 13.1111 10.5816 13.0248C10.3896 12.9264 10.1376 12.9264 9.63361 12.9264H5.04001C4.53601 12.9264 4.28401 12.9264 4.09201 13.0248C3.92251 13.1111 3.78472 13.2489 3.69841 13.4184ZM5.40001 14.7264H9.27361V18.6H5.40001V14.7264Z"
+                fill="white" />
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M12.9264 5.03998C12.9264 4.53598 12.9264 4.28398 13.0248 4.09198C13.1111 3.92248 13.2489 3.78469 13.4184 3.69838C13.6104 3.59998 13.8624 3.59998 14.3664 3.59998H18.96C19.464 3.59998 19.716 3.59998 19.908 3.69838C20.0775 3.78469 20.2153 3.92248 20.3016 4.09198C20.4 4.28398 20.4 4.53598 20.4 5.03998V9.63357C20.4 10.1376 20.4 10.3896 20.3016 10.5816C20.2153 10.7511 20.0775 10.8889 19.908 10.9752C19.716 11.0736 19.464 11.0736 18.96 11.0736H14.3664C13.8624 11.0736 13.6104 11.0736 13.4184 10.9752C13.2489 10.8889 13.1111 10.7511 13.0248 10.5816C12.9264 10.3896 12.9264 10.1376 12.9264 9.63357V5.03998ZM14.7264 9.27358V5.39998H18.6V9.27358H14.7264Z"
+                fill="white" />
+              <path d="M12.924 12.924H15.4164V15.4164H12.924V12.924Z" fill="white" />
+              <path
+                d="M17.9076 15.4164H15.4164V17.9076H12.924V20.4H15.4164V17.9076H17.9076V20.4H20.4V17.9076H17.9076V15.4164Z"
+                fill="white" />
+              <path d="M17.9076 15.4164V12.924H20.4V15.4164H17.9076Z" fill="white" />
+            </svg></a>
+        </div>
+      </div>
+      <img class="banner__img" src="/img/banner-img.png" alt="Изображение логотипа приложения">
+    </div>
 
 
     <section class="advantages">
@@ -129,14 +147,16 @@
                     в&nbsp;GorodPay легко и&nbsp;без комиссии</p>
                   <a class="advantage-card__link" href="#">
                     <span class="advantage-card__descr">Узнать больше</span>
-                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M15.3446 9.30907L11.0706 4.94511L12.1238 4L18.0001 10L12.1238 16L11.0706 15.0549L15.3446 10.6909H3V9.30907L15.3446 9.30907Z"
                         fill="#1E222E" />
                     </svg>
                   </a>
                 </div>
-                <img class="advantage-card__image" src="./img/image-card.png" width="280" height="268" alt="Иллюстрация статьи">
+                <img class="advantage-card__image" src="./img/image-card.png" width="280" height="268"
+                  alt="Иллюстрация статьи">
               </div>
             </li>
             <li class="advantages__item">
@@ -146,14 +166,16 @@
                   <p class="advantage-card__text">Следи за&nbsp;своими поездками и&nbsp;контролируй расходы</p>
                   <a class="advantage-card__link" href="#">
                     <span class="advantage-card__descr">Узнать больше</span>
-                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M15.3446 9.30907L11.0706 4.94511L12.1238 4L18.0001 10L12.1238 16L11.0706 15.0549L15.3446 10.6909H3V9.30907L15.3446 9.30907Z"
                         fill="#1E222E" />
                     </svg>
                   </a>
                 </div>
-                <img class="advantage-card__image" src="./img/image-history.png" width="280" height="268" alt="Иллюстрация статьи">
+                <img class="advantage-card__image" src="./img/image-history.png" width="280" height="268"
+                  alt="Иллюстрация статьи">
               </div>
             </li>
             <li class="advantages__item">
@@ -163,14 +185,16 @@
                   <p class="advantage-card__text">Выводи карты из&nbsp;транспортного стоп-листа быстро и&nbsp;удобно</p>
                   <a class="advantage-card__link" href="#">
                     <span class="advantage-card__descr">Узнать больше</span>
-                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M15.3446 9.30907L11.0706 4.94511L12.1238 4L18.0001 10L12.1238 16L11.0706 15.0549L15.3446 10.6909H3V9.30907L15.3446 9.30907Z"
                         fill="white" />
                     </svg>
                   </a>
                 </div>
-                <img class="advantage-card__image" src="./img/image-stoplist.png" width="280" height="268" alt="Иллюстрация статьи">
+                <img class="advantage-card__image" src="./img/image-stoplist.png" width="280" height="268"
+                  alt="Иллюстрация статьи">
               </div>
             </li>
             <li class="advantages__item">
@@ -180,14 +204,16 @@
                   <p class="advantage-card__text">Прокладывай оптимальные маршруты и смотри расписание онлайн</p>
                   <a class="advantage-card__link" href="#">
                     <span class="advantage-card__descr">Узнать больше</span>
-                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="advantage-card__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
                       <path fill-rule="evenodd" clip-rule="evenodd"
                         d="M15.3446 9.30907L11.0706 4.94511L12.1238 4L18.0001 10L12.1238 16L11.0706 15.0549L15.3446 10.6909H3V9.30907L15.3446 9.30907Z"
                         fill="#1E222E" />
                     </svg>
                   </a>
                 </div>
-                <img class="advantage-card__image" src="./img/image-transport.png" width="280" height="268" alt="Иллюстрация статьи">
+                <img class="advantage-card__image" src="./img/image-transport.png" width="280" height="268"
+                  alt="Иллюстрация статьи">
               </div>
             </li>
           </ul>
@@ -195,23 +221,25 @@
       </div>
     </section>
 
-    <!-- Специальные предложения --> 
-     <h2>Специальные предложения</h2>
+    <!-- Специальные предложения -->
+    <h2>Специальные предложения</h2>
     <ul class="offers-list">
       <li class="offers-list__item">
         <div class="special-card">
           <h3 class="special-card__heading">Кредитный рейтинг</h3>
           <p class="special-card__text">Бесплатная оценка финансовой репутации</p>
-          <img class="special-card__image" src="./img/special-rate.png" width="130" height="130" alt="Иллюстрация карточки">
-          <a  class="special-card__link" href="#"></a>
+          <img class="special-card__image" src="./img/special-rate.png" width="130" height="130"
+            alt="Иллюстрация карточки">
+          <a class="special-card__link" href="#"></a>
         </div>
       </li>
       <li class="offers-list__item">
         <div class="special-card">
           <h3 class="special-card__heading">Подписка для вашей выгоды</h3>
           <p class="special-card__text">Скидки и&nbsp;бонусы, которые нужны именно вам</p>
-          <img class="special-card__image" src="./img/special-subscribtion.png" width="130" height="130" alt="Иллюстрация карточки">
-          <a  class="special-card__link" href="#"></a>
+          <img class="special-card__image" src="./img/special-subscribtion.png" width="130" height="130"
+            alt="Иллюстрация карточки">
+          <a class="special-card__link" href="#"></a>
         </div>
       </li>
       <li class="offers-list__item">
@@ -226,32 +254,36 @@
             <li>Остатки не&nbsp;сгорают</li>
             <li>Услуга &laquo;Антиспам&raquo;</li>
           </ul>
-          <img class="special-card__image" src="./img/special-mobile.png" width="130" height="130" alt="Иллюстрация карточки">
-          <a  class="special-card__link" href="#"></a>
+          <img class="special-card__image" src="./img/special-mobile.png" width="130" height="130"
+            alt="Иллюстрация карточки">
+          <a class="special-card__link" href="#"></a>
         </div>
       </li>
       <li class="offers-list__item">
         <div class="special-card">
           <h3 class="special-card__heading">Кешбэк до&nbsp;1000&nbsp;р.</h3>
           <p class="special-card__text">За&nbsp;путешествия по&nbsp;миру с&nbsp;Газпромбанком</p>
-          <img class="special-card__image" src="./img/special-cashback.png" width="130" height="130" alt="Иллюстрация карточки">
-          <a  class="special-card__link" href="#"></a>
+          <img class="special-card__image" src="./img/special-cashback.png" width="130" height="130"
+            alt="Иллюстрация карточки">
+          <a class="special-card__link" href="#"></a>
         </div>
       </li>
       <li class="offers-list__item">
         <div class="special-card">
           <h3 class="special-card__heading">Накопительный счет</h3>
           <p class="special-card__text">Выгодная ставка без дополнительных условий. Откройте онлайн</p>
-          <img class="special-card__image" src="./img/special-account.png" width="130" height="130" alt="Иллюстрация карточки">
-          <a  class="special-card__link" href="#"></a>
+          <img class="special-card__image" src="./img/special-account.png" width="130" height="130"
+            alt="Иллюстрация карточки">
+          <a class="special-card__link" href="#"></a>
         </div>
       </li>
       <li class="offers-list__item">
         <div class="special-card">
           <h3 class="special-card__heading">Автокредиты</h3>
           <p class="special-card__text">Для получения предварительного решения документы не&nbsp;требуются</p>
-          <img class="special-card__image" src="./img/special-auto.png" width="130" height="130" alt="Иллюстрация карточки">
-          <a  class="special-card__link" href="#"></a>
+          <img class="special-card__image" src="./img/special-auto.png" width="130" height="130"
+            alt="Иллюстрация карточки">
+          <a class="special-card__link" href="#"></a>
         </div>
       </li>
     </ul>
@@ -261,7 +293,8 @@
       <div class="footer__wrapper">
         <div class="footer__left">
           <a class="footer__logo" href="#">
-            <svg class="footer__image" width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="footer__image" width="48" height="48" viewBox="0 0 48 48" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_1891_989)">
                 <mask id="mask0_1891_989" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48"
                   height="48">
@@ -325,8 +358,8 @@
               <a class="socials__link" href="#" aria-label="Перейти на страницу телеграм">
                 <svg class="socials__icon" width="15" height="12" viewBox="0 0 15 12" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
-                  <mask id="mask0_1898_434" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="15"
-                    height="12">
+                  <mask id="mask0_1898_434" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                    width="15" height="12">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0.166626H14.5V11.8333H0.5V0.166626Z"
                       fill="white" />
                   </mask>
@@ -359,7 +392,8 @@
               </a>
             </li>
           </ul>
-          <p class="footer__copyright">© 2024 GorodPay, Банк ГПБ (АО). Сервис предоставляется ООО "Информационные сети", 115035, г. Москва,
+          <p class="footer__copyright">© 2024 GorodPay, Банк ГПБ (АО). Сервис предоставляется ООО "Информационные сети",
+            115035, г. Москва,
             ул.Новочеремушкинская, 63</p>
           <span class="footer__info">Информация от 5.01.2024</span>
         </div>
