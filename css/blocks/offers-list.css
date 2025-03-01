@@ -8,3 +8,12 @@
   list-style-type: none;
 }
 
+
+
+.offers-list__item--blue {
+  grid-row: span 2;
+}
+
+.offers-list__item--long {
+  grid-column: span 2;
+}

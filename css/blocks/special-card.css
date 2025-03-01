@@ -17,3 +17,21 @@
   font-weight: 700;
   line-height: 20px;
 }
+
+.special-card--blue {
+  background-color:#5E81FF;
+  color: #FFFFFF;
+  height: 100%;
+}
+
+.special-card--blue .special-card__heading {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.special-card--blue .special-card__list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
