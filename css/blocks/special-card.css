@@ -35,3 +35,7 @@
   flex-direction: column;
   gap: 12px;
 }
+
+.special-card--long {
+   height: 100%;
+}
